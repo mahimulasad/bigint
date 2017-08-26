@@ -446,5 +446,22 @@ Bigint factorial(int n)
 
     return result;
 }
+Bigint dividation(Bigint x,Bigint y)
+{
+    Dodecahedron::Bigint res=x,i=0;
+    for(;res>=0;i=i+1)
+        res=res-y;
+    i=i-1;
+    if(y>0)
+        return i;
+    else if(y<0)
+        return ((Dodecahedron::Bigint)-1)*i;
+    else
+    {
+        ///return error ,cause can not be divided by zero
+        return (Dodecahedron::Bigint)0;
+    }
+}
+
 
 }
