@@ -128,3 +128,12 @@ Returns a factorial of an integer, aka n!
 ```C++
 cout << Dodecahedron::factorial(20000); //70`000+ digit number
 ```
+## dividation(Bigint,Bigint)
+Divides a Bigint bhy another Bigint
+```C++
+Dodecahedron::Bigint x=6465465465465464654562,y=6465465423123;
+cout << Dodecahedron::dividation(x,y); 
+```
+```C++
+cout << Dodecahedron::dividation((Dodecahedron::Bigint)x,(Dodecahedron::Bigint)y); 
+```
